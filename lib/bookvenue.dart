@@ -91,6 +91,7 @@ class _BookVenueState extends State<BookVenue> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               buildVenueButton(1),
+              SizedBox(width: 20),
               buildVenueButton(2),
             ],
           ),
@@ -98,6 +99,7 @@ class _BookVenueState extends State<BookVenue> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               buildVenueButton(3),
+              SizedBox(width: 20),
               buildVenueButton(4),
             ],
           ),
@@ -105,10 +107,10 @@ class _BookVenueState extends State<BookVenue> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               buildVenueButton(5),
+              SizedBox(width: 20),
               buildVenueButton(6),
             ],
           ),
-          SizedBox(height: 20),
         ],
       ),
     );
