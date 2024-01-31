@@ -1,4 +1,4 @@
-# event_booking_system
+# Event_booking_system
 
 A new Flutter project.
 
